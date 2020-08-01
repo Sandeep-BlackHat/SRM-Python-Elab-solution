@@ -339,3 +339,25 @@ p=input()
 print(wordoccurences(n, p))
 
 #Note: 66% Successful but one case isn't running
+
+
+#Q. 31: Replacing Whitespaces
+#QUESTION DESCRIPTION
+
+#Write a program to replace whitespaces in a string by *.
+#TEST CASE 1
+
+#INPUT
+#Welcome to India
+
+#OUTPUT
+#Welcome*to*India
+
+# In[15]:
+
+import re
+text = input()
+text =text.replace (" ", "*")
+print(text)
+
+# In[16]:
