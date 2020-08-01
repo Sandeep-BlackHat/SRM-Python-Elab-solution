@@ -288,9 +288,54 @@ print(l)
 print(u)
 print(str.count(" "))
 
+#Q. 38: Count it
+#QUESTION DESCRIPTION
 
-# In[ ]:
+#Write a Python program to count the number of entered words in a given string
+
+#Refer sample input and output for formatting specification.
+
+#All float values are displayed correct to 2 decimal places.
+
+#All text in bold corresponds to input and the rest corresponds to output
+
+#Input:
+#1. First Line: String or sentence
+#2. Second Line: word to be searched in the sentence
+
+#Output:
+#Word Count 
+
+#TEST CASE 1
+
+#INPUT
+#KUMARI KANDAM THE LOST CONTINENT KUMARI
+#KUMARI
+
+#OUTPUT
+2
+
+#TEST CASE 2
+
+#INPUT
+#TAMIL THE FIRST LANGUAGE IN WORLD
+#TAMIL
+
+#OUTPUT
+#1
 
 
+# In[14]:
 
+def wordoccurences(n, p):
+  x = n.split(" ")
+  c = 0
+  for i in range(0, len(x)+1):
+    if (p == x[i]):
+      c = c + 1
+      return c
+n=input()
+p=input()
+print(wordoccurences(n, p))
 
+#Note: 66% Successful but one case isn't running
