@@ -668,3 +668,45 @@ up = int(input())
 
 print(squares(lo, up))
 
+#Q. 51: Merge and sort
+#QUESTION DESCRIPTION
+
+#Python Program to Merge Two Lists and Sort it
+
+#Input
+#Number of elements in the list 1
+#Elements of the List 1
+#Number of Elements in in the List 2
+#Element of List 2
+
+#Output
+#Print the sorted List
+
+#TEST CASE 1
+
+#INPUT
+
+#2
+#67 43
+#2
+#22 11
+
+#OUTPUT
+
+#Sorted list is: 11 22 43 67
+
+
+a=[]
+c=[]
+n1=int(input("Enter number of elements:"))
+for i in range(1,n1+1):
+    b=int(input("Enter element:"))
+    a.append(b)
+n2=int(input("Enter number of elements:"))
+for i in range(1,n2+1):
+    d=int(input("Enter element:"))
+    c.append(d)
+new=a+c
+new.sort()
+print("Sorted list is:",new)
+
