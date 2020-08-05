@@ -695,7 +695,7 @@ print(squares(lo, up))
 
 #Sorted list is: 11 22 43 67
 
-
+# In[]:
 a=[]
 c=[]
 n1=int(input("Enter number of elements:"))
@@ -711,6 +711,43 @@ new.sort()
 print("Sorted list is:",new)
 
 #something is getting wrong!
+
+# In[]:
+
+#Q. 56: Reverse Order
+#QUESTION DESCRIPTION
+
+#Write a program that reads integers from the user and stores them in a list. Use 0 as a sentinel value to mark the end of the input.
+
+#Once all of the values have been read your program should display them (except for the 0) in reverse order, with one value appearing on each line.
+#TEST CASE 1
+
+#INPUT
+#15
+#144
+#133
+#125
+#178
+#123
+#1345
+#376
+#0
+#OUTPUT
+#376
+#1345
+#123
+#178
+#125
+#133
+#144
+#15
+
+# In[]:
+
+
+
+
+
 
 
 
